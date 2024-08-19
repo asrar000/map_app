@@ -1,0 +1,18 @@
+.leaflet-container {
+  width: 100vw; 
+  height: 100vh;
+}
+
+.leaflet-draw-toolbar a {
+  width: auto;
+  min-width: 100px; /* Ensures buttons have enough width */
+  padding: 5px 10px; /* Adjust padding for better spacing */
+  white-space: nowrap; /* Prevent text from breaking into multiple lines */
+  text-overflow: ellipsis; /* Add ellipsis if the text overflows */
+  overflow: hidden;
+}
+
+.leaflet-draw-actions a {
+  font-size: 12px; /* Adjust font size for the action buttons */
+  padding: 2px 6px; /* Adjust padding for the actions */
+}
